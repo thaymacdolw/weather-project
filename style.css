@@ -57,6 +57,11 @@ button:hover {
 .second-block > p {
     margin-top: 1em;
 }
+.small-block {
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+}
 h2 {
     color: white;
     font-size: 2em;
@@ -66,6 +71,8 @@ h2 {
 }
 .description {
     color: white;
+    text-transform: capitalize; /*Deixa a primeira letra maiúscula */
+    margin-right: 0.5em;
 }
 .humidity {
     color: white;

@@ -10,14 +10,17 @@
 </head>
 <body>
     <div class="main-content">
-        <input placeholder="Type the citie's name">
-        <button>
+        <input class="input-city" placeholder="Type the citie's name">
+        <button onclick="clickedTheButton()">
             <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="image of a magnifying glass to symbolize a search">
         </button>
         <div class="second-block">
-            <h2>Weather in Rio de Janeiro</h2>
+            <h2 class="city">Weather in Rio de Janeiro</h2>
             <p class="weather">28°C</p>
-            <p class="description">Scattered Clouds</p>
+            <div class="small-block">
+                <p class="description">Scattered Clouds</p>
+                <img class="icon" src="https://openweathermap.org/img/wn/04n.png" alt="Cloud Icon">
+            </div>
             <p class="humidity">Humidity 70%</p>
         </div>
     </div>
